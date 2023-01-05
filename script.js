@@ -1,19 +1,16 @@
 let choices = ["r", "p", "s"];
 let userInput = prompt("Choose r, p or s");
-// let computerInput = Math.floor(Math.random() * 3); //Picks a random number from 0,1,2
+let computerInput = Math.floor(Math.random() * 3); //Picks a random number from 0,1,2
 
-let computerString = "r";
+let computerString;
 
-// if (computerInput == "0") {
-//     computerString = "r";
-//  } else if (computerInput == "1") {
-//         computerString = "p";
-//      } else (computerInput == "2") 
-//             computerString = "s";
+if (computerInput == "0") {
+    computerString = "r";
+ } else if (computerInput == "1") {
+        computerString = "p";
+     } else  computerString = "s";
         
     
-
-
 let userWins = 0;
 let userLoses = 0;
 let ties = 0;
